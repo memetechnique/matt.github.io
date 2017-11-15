@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+
+<h2>Classic Games</h2>
+<p>Play games today!!!</p>
+
+<div class="dropdown">
+  <button class="dropbtn">NES</button>
+  <div class="dropdown-content">
+    <a href="#">Mike Tyson</a>
+    <a href="#">Super Mario 3</a>
+    <a href="#">Soccer</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Classical Games</button>
+  <div class="dropdown-content">
+    <a href="#">Simon Game</a>
+    <a href="#">Pacman</a>
+    <a href="#">Snake</a>
+</div>
+</div>
+
+	<div class="dropdown">
+  <button class="dropbtn">Super Nintendo</button>
+  <div class="dropdown-content">
+    <a href="#">Street Fighter II</a>
+    <a href="#">Donkey Kong</a>
+    <a href="#">Super Mario</a>	
+</div>
+</div>
+</body>
+</html>
